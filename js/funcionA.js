@@ -98,6 +98,11 @@ let load = (data) => {
       longiHTML.textContent = longitude;
 
 
+      let elevation = data["elevation"]
+      let elevHTML= document.getElementById("elevation")
+      elevHTML.textContent = elevation;
+
+
                  
 
                  
